@@ -1,0 +1,112 @@
+.banner-img {
+    margin-top: 30px;
+  }
+  .gen-container {
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 70vh;
+    flex-direction: column;
+    background-color: #ffdee9;
+    background-image: linear-gradient(0deg, #ffdee9 0%, #b5fffc 100%);
+    font-family: 'Montserrat', sans-serif; 
+  }
+  
+  .storeNameHome {
+    
+    font-family: 'Sacramento', cursive;
+    font-size: 4.5rem;
+    color: #015958 ;
+    margin-top: 10px;
+    margin-bottom: auto;
+  }
+
+  .home-page h1 {
+    color: #015958;
+    font-family: 'Montserrat', sans-serif; 
+  }
+  
+  .home-page {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .home-page .card {
+    
+    width: 25rem;
+  }
+
+  .home-page .card-name-price {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .home-page .card-price {
+    color: green;
+    font-weight: bold;
+  }
+  .productImg{
+    width: 200px;
+    height: 250px;
+    margin: auto;
+    
+  }
+  
+  .home-page .card-text {
+    color: rgb(90, 89, 89);
+  }
+  
+  .home-page .card img:hover {
+    transform: scale(0.9);
+  }
+  
+  .home-page .card-img-top {
+    height: 300px !important;
+  }
+
+  .actionBtns{
+    background-color: #015958;
+    border-color: #015958;
+  }
+  
+  .actionBtns:hover, .cartBtn:hover{
+    
+    transform: scale(0.9);
+  
+  }
+  .actionBtns:hover{
+    background-color:#015958;
+  }
+
+  .filters h4 {
+    margin-top: 100px;
+    color: gray !important;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.337);
+  }
+  
+  .ant-checkbox-wrapper:first-of-type {
+    margin-left: 8px;
+  }
+  
+  .ant-checkbox-wrapper {
+    margin: 2px;
+  }
+  .ant-radio-wrapper {
+    margin-bottom: 5px !important;
+    margin-left: 10px;
+  }
+  
+  .filters button {
+    background-color: black;
+    width: 100%;
+    border: none;
+    border-radius: 0;
+    margin-top: 20px;
+  }
+  
+  .loadmore {
+    color: green;
+    font-weight: bold;
+    font-size: 20px !important;
+  }
